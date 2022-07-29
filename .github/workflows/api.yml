@@ -25,10 +25,8 @@ jobs:
       - name: Run a multi-line script
         run: |
           echo Add other actions to build,
-          echo test, and deploy your project.
-      - uses: actions/checkout@v2
-      - name: Use Node.js
-job2: 
+          echo test, and deploy your project.    
+
 
   environment:
 
@@ -44,6 +42,5 @@ job2:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-      - uses: actions/checkout@v2
-      - name: Use Node.js
+      
    
