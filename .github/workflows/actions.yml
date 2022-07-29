@@ -21,9 +21,7 @@ jobs:
         run: npm Install
       - name: test
         run: npm test
-
-jobs2:   
-  Build:    
+  dev:    
     runs-on: ubuntu-latest
 
     steps: 
@@ -36,3 +34,4 @@ jobs2:
         run: npm Install
       - name: test
         run: npm test
+
