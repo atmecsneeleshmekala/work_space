@@ -35,9 +35,5 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
         
-      - name: testing api
-        run: npm init
-      - name: installing api
-        run: npm i
-        
+      
         
