@@ -21,17 +21,4 @@ jobs:
         run: npm Install
       - name: test
         run: npm test
-  dev:    
-    runs-on: ubuntu-latest
-
-    steps: 
-      - uses: action/checkout@v2
-      - name: Uses Node.js ${{matrix.node-version}}
-        uses: action/steps-node@v1
-        with:
-          node-version: ${{matrix.node-version}}
-      - name: Install
-        run: npm Install
-      - name: test
-        run: npm test
-
+  
