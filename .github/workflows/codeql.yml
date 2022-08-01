@@ -15,6 +15,10 @@ on:
   push:
     branches: 
         - main
+        - java_script
+    branches-ignore:
+        - type_script
+        - api_code
   #pull_request:
     # The branches below must be a subset of the branches above
    #branches: [ "main" ]
@@ -33,7 +37,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        language: [ 'typescript' ]
+        language: [ 'javascript' ]
         # CodeQL supports [ 'cpp', 'csharp', 'go', 'java', 'javascript', 'python', 'ruby' ]
         # Learn more about CodeQL language support at https://aka.ms/codeql-docs/language-support
 
