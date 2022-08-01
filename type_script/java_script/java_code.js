@@ -30,7 +30,7 @@ function calculateTip() {
     
     //Display the tip!
     document.getElementById("totalTip").style.display = "block";
-    document.getElementById("tip").innerHTML = total;
+    document.("tip").innerHTML = total;
     
     }
     
