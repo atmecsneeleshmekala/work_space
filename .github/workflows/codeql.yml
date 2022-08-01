@@ -13,16 +13,16 @@ name: "CodeQL"
 
 on:
   push:
-    branches: 
-        - main
-        - java_script
+   # branches: 
+     #   - main
+       # - java_script
     branches-ignore:
         - type_script
         - api_code
-  #pull_request:
+  pull_request:
     # The branches below must be a subset of the branches above
-   #branches: [ "main" ]
- # schedule:
+   branches: [ "main" ]
+  #schedule:
   #  - cron: '26 19 * * 1'
 
 jobs:
